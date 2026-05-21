@@ -7,15 +7,7 @@ import com.ufscar.dirigemais.data.remote.NetworkResult
 import com.ufscar.dirigemais.data.remote.dto.*
 import kotlinx.coroutines.flow.Flow
 
-/**
- * Repository = "Fonte única da verdade" (Single Source of Truth).
- *
- * A ViewModel não sabe SE os dados vêm da rede ou do banco local.
- * Ela só pede ao Repository, e o Repository decide.
- *
- * Essa é a separação de responsabilidades da arquitetura MVVM:
- *   View → ViewModel → Repository → [API ou Room]
- */
+
 class InstructorRepository(
     private val apiService: ApiService,
     private val favoriteDao: FavoriteDao
