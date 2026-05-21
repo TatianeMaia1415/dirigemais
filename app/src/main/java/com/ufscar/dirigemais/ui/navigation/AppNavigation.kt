@@ -15,11 +15,7 @@ import com.ufscar.dirigemais.ui.screens.student.favorites.FavoritesViewModel
 import com.ufscar.dirigemais.ui.screens.student.home.HomeScreen
 import com.ufscar.dirigemais.ui.screens.student.home.HomeViewModel
 
-/**
- * Grafo de navegação — 5 telas:
- * Splash → Login ↔ Register → Home → InstructorDetail
- *                                  ↘ Favorites
- */
+
 @Composable
 fun AppNavigation(container: AppContainer) {
     val navController = rememberNavController()
