@@ -11,11 +11,11 @@ import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
 
 private val LightColorScheme = lightColorScheme(
-    primary            = DarkGreen,        // botões, TopAppBar, ícones ativos
+    primary            = DarkGreen,       
     onPrimary          = SurfaceWhite,
-    primaryContainer   = MintGreen,        // fundo de header, containers
+    primaryContainer   = MintGreen,        
     onPrimaryContainer = BrownText,
-    secondary          = Amber,            // CTAs, chips selecionados
+    secondary          = Amber,            
     onSecondary        = BrownText,
     secondaryContainer = Color(0xFFFFF3CD),
     background         = BackgroundMint,
