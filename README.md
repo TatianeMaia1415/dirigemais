@@ -5,6 +5,7 @@ Aplicativo Android nativo desenvolvido para a disciplina de Desenvolvimento Móv
 O Dirige+ conecta candidatos à CNH com instrutores autônomos credenciados pelo Detran, permitindo buscar por cidade/bairro, visualizar perfis completos, salvar favoritos e contatar via WhatsApp.
 
 ---
+Tatiane Maia de Oliveira
 
 ## Pré-requisitos
 
