@@ -5,22 +5,11 @@ import com.ufscar.dirigemais.data.local.entity.FavoriteEntity
 import com.ufscar.dirigemais.data.local.entity.UserEntity
 import kotlinx.coroutines.flow.Flow
 
-/**
- * DAO = Data Access Object
- * Interface com os métodos de acesso ao banco de dados.
- * O Room gera automaticamente a implementação em tempo de compilação.
- *
- * @Dao → marca como DAO para o Room.
- */
+
 @Dao
 interface FavoriteDao {
 
-    /**
-     * Flow<List<>> → retorna uma "stream" reativa.
-     * Quando o banco mudar, a UI é notificada automaticamente — sem precisar chamar de novo.
-     * ⚠️ FORA DO MATERIAL: Flow (o material usa LiveData — aqui usamos Flow por ser
-     *    mais idiomático com Compose e coroutines)
-     */
+   
     @Query("SELECT * FROM favorites")
     fun getAllFavorites(): Flow<List<FavoriteEntity>>
 
