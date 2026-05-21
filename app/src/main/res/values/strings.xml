@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Strings em Português — arquivo padrão (R5: sem strings hardcoded) -->
+<resources>
+    <string name="app_name">Dirige+</string>
+
+    <!-- Auth -->
+    <string name="login_title">Bem-vindo ao Dirige+</string>
+    <string name="login_subtitle">Conectando você ao melhor instrutor</string>
+    <string name="email_label">E-mail</string>
+    <string name="password_label">Senha</string>
+    <string name="login_button">Entrar</string>
+    <string name="register_link">Não tem conta? Cadastre-se</string>
+    <string name="register_title">Criar Conta</string>
+    <string name="name_label">Nome completo</string>
+    <string name="profile_type_label">Sou:</string>
+    <string name="profile_student">Aluno(a)</string>
+    <string name="profile_instructor">Instrutor(a)</string>
+    <string name="register_button">Criar Conta</string>
+    <string name="already_have_account">Já tem conta? Entrar</string>
+    <string name="field_required">Campo obrigatório</string>
+    <string name="invalid_email">E-mail inválido</string>
+    <string name="password_too_short">Senha deve ter ao menos 6 caracteres</string>
+
+
+    <!-- Home do Aluno -->
+    <string name="home_title">Encontre seu Instrutor</string>
+    <string name="search_hint">Buscar por cidade ou bairro…</string>
+    <string name="filter_price">Preço/hora</string>
+    <string name="filter_rating">Avaliação</string>
+    <string name="no_instructors">Nenhum instrutor encontrado</string>
+    <string name="loading">Carregando…</string>
+
+    <!-- Card do Instrutor -->
+    <string name="price_per_hour">R$ %.0f / hora</string>
+    <string name="rating_label">%.1f (%d avaliações)</string>
+    <!-- Detalhes do Instrutor -->
+    <string name="detail_about">Sobre</string>
+    <string name="detail_schedule">Disponibilidade</string>
+    <string name="detail_reviews">Avaliações</string>
+    <string name="contact_whatsapp">Contato via WhatsApp</string>
+    <string name="add_favorite">Adicionar aos Favoritos</string>
+    <string name="remove_favorite">Remover dos Favoritos</string>
+    <string name="write_review">Avaliar Instrutor</string>
+    <string name="no_reviews">Ainda sem avaliações</string>
+    <string name="no_description">Sem descrição.</string>
+
+
+    <!-- Favoritos -->
+    <string name="favorites_title">Meus Favoritos</string>
+    <string name="no_favorites">Você ainda não tem favoritos</string>
+
+    <!-- Avaliação -->
+    <string name="review_title">Avaliar %s</string>
+    <string name="review_rating_label">Sua nota</string>
+    <string name="review_comment_label">Comentário (opcional)</string>
+    <string name="review_submit">Enviar Avaliação</string>
+    <string name="review_success">Avaliação enviada!</string>
+
+    <!-- Painel do Instrutor -->
+    <string name="dashboard_title">Meu Painel</string>
+    <string name="dashboard_my_profile">Meu Perfil</string>
+    <string name="dashboard_edit_profile">Editar Perfil</string>
+    <string name="dashboard_my_reviews">Minhas Avaliações</string>
+
+    <!-- Editar Perfil -->
+    <string name="edit_profile_title">Editar Perfil</string>
+    <string name="photo_url_label">URL da Foto</string>
+    <string name="description_label">Descrição</string>
+    <string name="price_label">Preço por hora (R$)</string>
+    <string name="city_field_label">Cidade</string>
+    <string name="neighborhood_label">Bairro</string>
+    <string name="phone_label">WhatsApp (somente números)</string>
+    <string name="save_button">Salvar Alterações</string>
+    <string name="save_success">Perfil atualizado!</string>
+
+    <!-- Configurações -->
+    <string name="settings_title">Configurações</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_portuguese">Português</string>
+    <string name="settings_english">English</string>
+    <string name="settings_logout">Sair da conta</string>
+    <string name="settings_app_version">Versão do app</string>
+
+    <!-- Navegação -->
+    <string name="nav_home">Início</string>
+    <string name="nav_favorites">Favoritos</string>
+    <string name="nav_dashboard">Painel</string>
+    <string name="nav_settings">Config.</string>
+    <string name="nav_back">Voltar</string>
+    <string name="forgot_password">Esqueceu a senha?</string>
+    <string name="or_divider">ou</string>
+    <string name="screen_details">Detalhes</string>
+    <string name="nav_profile">Perfil</string>
+    <string name="see_all">Ver todos</string>
+    <string name="instructors_nearby">Instrutores próximos</string>
+
+    <!-- Erros -->
+    <string name="error_network">Sem conexão com a internet</string>
+    <string name="error_generic">Algo deu errado. Tente novamente.</string>
+    <string name="error_login">E-mail ou senha incorretos</string>
+    <string name="retry">Tentar novamente</string>
+    <string name="terms_of_use">Política de Termos de uso</string>
+</resources>
