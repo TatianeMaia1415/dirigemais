@@ -6,12 +6,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 
-/**
- * Singleton que cria e fornece a instância do Retrofit.
- *
- * ⚠️ ATENÇÃO: Substitua BASE_URL pela URL do seu projeto no MockAPI.io
- * Formato: https://XXXXXXXXXXXXXXXXXXXXXXXX.mockapi.io/api/v1/
- */
+
 object RetrofitClient {
 
     private const val BASE_URL = "https://6a0e2fb31736097c36099042.mockapi.io/api/v1/"
