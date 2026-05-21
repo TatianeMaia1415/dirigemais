@@ -115,7 +115,7 @@ data/repository/ → Fonte única da verdade
 | Requisito | Status | Como verificar |
 |-----------|--------|----------------|
 | R1 — Identidade visual | ✅ | Abrir o app — paleta verde-menta, âmbar e marrom |
-| R2 — Mínimo 3 telas | ✅ | 6 telas: Splash, Login, Cadastro, Home, Detalhes, Favoritos |
+| R2 — Mínimo 3 telas | ✅ | 4 telas: Login, Home, Detalhes, Favoritos |
 | R3 — Acesso à rede | ✅ | Home busca instrutores do MockAPI via Retrofit |
 | R4 — Armazenamento local | ✅ | Favoritos salvos no Room — persistem após fechar o app |
 | R5 — Internacionalização | ✅ | strings.xml em PT e EN — muda com idioma do sistema |
