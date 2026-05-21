@@ -14,10 +14,7 @@ import org.junit.Test
 import org.mockito.kotlin.*
 import retrofit2.Response
 
-/**
- * Testes unitários do InstructorRepository (R6).
- * Mockito cria "dublês" das dependências — testa sem rede ou banco real.
- */
+
 class InstructorRepositoryTest {
 
     private lateinit var mockApiService: ApiService
