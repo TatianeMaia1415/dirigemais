@@ -14,15 +14,7 @@ import org.junit.Before
 import org.junit.Test
 import org.junit.runner.RunWith
 
-/**
- * Teste instrumentado do FavoriteDao (roda no device/emulador).
- *
- * Usa um banco Room IN-MEMORY (apenas na memória, sem arquivo em disco),
- * o que garante que cada teste começa com um banco limpo.
- *
- * @RunWith(AndroidJUnit4::class) é necessário para testes que precisam
- * do contexto do Android (como Room).
- */
+
 @RunWith(AndroidJUnit4::class)
 class FavoriteDaoTest {
 
