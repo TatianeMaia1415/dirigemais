@@ -4,20 +4,7 @@ import com.ufscar.dirigemais.data.remote.dto.*
 import retrofit2.Response
 import retrofit2.http.*
 
-/**
- * Interface do Retrofit — define os endpoints da API REST (MockAPI.io).
- * O Retrofit gera automaticamente a implementação dessa interface.
- *
- * Cada função é uma requisição HTTP:
- *   @GET  = leitura de dados
- *   @POST = envio de novo dado
- *   @PUT  = atualização de dado existente
- *
- * "suspend" = função de coroutine (executa em background, não trava a UI)
- * ⚠️ FORA DO MATERIAL: suspend functions / coroutines com Retrofit
- *    (o material usa .enqueue() com Callback — aqui usamos suspend por ser
- *     o padrão moderno com Compose e ViewModelScope)
- */
+ 
 interface ApiService {
 
     // ---- Instrutores ----
