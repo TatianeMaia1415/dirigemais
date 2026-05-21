@@ -3,11 +3,7 @@ package com.ufscar.dirigemais.data.repository
 import com.ufscar.dirigemais.data.local.dao.UserDao
 import com.ufscar.dirigemais.data.local.entity.UserEntity
 
-/**
- * Repository responsável por autenticação local.
- * O login é verificado contra o banco Room (sem servidor de autenticação real).
- * Conforme permitido pelo professor: "o back-end pode ser apenas simulado".
- */
+
 class UserRepository(private val userDao: UserDao) {
 
     /** Retorna true se o e-mail já está cadastrado */
