@@ -2,11 +2,7 @@ package com.ufscar.dirigemais.data.remote.dto
 
 import com.google.gson.annotations.SerializedName
 
-/**
- * DTO = Data Transfer Object
- * Representa exatamente o JSON que vem da API MockAPI.
- * @SerializedName mapeia o campo JSON para o nome Kotlin.
- */
+
 data class InstructorDto(
     @SerializedName("id")             val id: String? = null,
     @SerializedName("nome")           val nome: String,
