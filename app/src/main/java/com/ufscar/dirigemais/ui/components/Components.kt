@@ -23,11 +23,6 @@ import com.ufscar.dirigemais.data.remote.dto.InstructorDto
 import com.ufscar.dirigemais.data.remote.dto.ReviewDto
 import com.ufscar.dirigemais.ui.theme.*
 
-// ============================================================
-// InstructorCard — Fiel ao protótipo Figma
-// Foto circular | Nome bold | Cidade | Avaliação | Preço âmbar
-// Botão WhatsApp verde | Coração favorito (outlined)
-// ============================================================
 @Composable
 fun InstructorCard(
     instructor: InstructorDto,
