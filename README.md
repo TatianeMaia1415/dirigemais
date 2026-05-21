@@ -1,7 +1,6 @@
-# dirigemais
 # Dirige+
 
-Aplicativo Android nativo desenvolvido para a disciplina de Desenvolvimento Móvel (DC/UFSCar — 01/2026).
+Aplicativo Android nativo desenvolvido para a disciplina de Desenvolvimento Móvel (DC/UFSCar — 05/2026).
 
 O Dirige+ conecta candidatos à CNH com instrutores autônomos credenciados pelo Detran, permitindo buscar por cidade/bairro, visualizar perfis completos, salvar favoritos e contatar via WhatsApp.
 
