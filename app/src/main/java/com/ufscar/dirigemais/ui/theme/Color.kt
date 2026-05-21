@@ -2,24 +2,20 @@ package com.ufscar.dirigemais.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-// ============================================================
-// Paleta Dirige+ — baseada no protótipo Figma
-// Regra 60-30-10: 60% verde-menta | 30% branco | 10% âmbar
-// ============================================================
 
-val MintGreen       = Color(0xFFACCFC2)  // 60% — fundo principal
-val DarkGreen       = Color(0xFF00896C)  // cor primária (AppBar, botões, ícones)
-val DarkGreenDark   = Color(0xFF006B53)  // variante escura
+val MintGreen       = Color(0xFFACCFC2) 
+val DarkGreen       = Color(0xFF00896C) 
+val DarkGreenDark   = Color(0xFF006B53)  
 
-val Amber           = Color(0xFFFDB625)  // 10% — CTAs, chips selecionados, estrelas
-val AmberDark       = Color(0xFFE09E10)  // pressed state do âmbar
+val Amber           = Color(0xFFFDB625) 
+val AmberDark       = Color(0xFFE09E10)  
 
-val BrownText       = Color(0xFF543728)  // texto principal (marrom)
-val BrownTextLight  = Color(0xFF7A5447)  // texto secundário
+val BrownText       = Color(0xFF543728)  
+val BrownTextLight  = Color(0xFF7A5447) 
 
-val SurfaceWhite    = Color(0xFFFFFFFF)  // cards, formulários (30%)
-val BackgroundMint  = Color(0xFFEAF5F1)  // fundo de telas (verde bem clarinho)
-val GrayField       = Color(0xFFF0F0F0)  // fundo dos campos de input
+val SurfaceWhite    = Color(0xFFFFFFFF) 
+val BackgroundMint  = Color(0xFFEAF5F1)  
+val GrayField       = Color(0xFFF0F0F0)  
 val GrayBorder      = Color(0xFFD0D0D0)
 val GrayMedium      = Color(0xFF9E9E9E)
 
