@@ -1,7 +1,7 @@
 package com.ufscar.dirigemais.ui.navigation
 
 /**
- * Rotas de navegação do app — apenas as 5 telas necessárias.
+ * Rotas de navegação do app 
  */
 sealed class Screen(val route: String) {
     object Splash            : Screen("splash")
